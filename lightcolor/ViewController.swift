@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let statusOff = true
+    let StatusOff = true
     
     override var prefersStatusBarHidden: Bool {return true
         
