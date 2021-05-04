@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let statusOff = true
+    
+    override var prefersStatusBarHidden: Bool {return true
+        
+    }
+    
     @IBOutlet weak var on: UIButton!
     
     override func viewDidLoad() {

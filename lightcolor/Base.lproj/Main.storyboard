@@ -55,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KO-AD-yVd">
-                                <rect key="frame" x="0.0" y="224" width="414" height="558"/>
+                                <rect key="frame" x="0.0" y="224" width="414" height="838"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Off">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -225,7 +225,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DGg-fH-88y"/>
+        <segue reference="8DZ-ak-tOI"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemGreenColor">
