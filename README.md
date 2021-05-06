@@ -1,6 +1,8 @@
 # lightcolor
 
-Home work number one. Click here to download screenshots https://disk.yandex.ru/d/4YoIFTPRR9Dt9g
+Hello, friend.
+
+Home work number one. Click here to download screenshots https://disk.yandex.ru/d/eBy9pP6j3ChL4Q
 
 test lightcolor
 
