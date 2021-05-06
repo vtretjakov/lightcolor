@@ -37,20 +37,32 @@
                                     <segue destination="bwQ-aR-rhE" kind="show" animates="NO" id="p5Q-XM-Adt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGI-HJ-brX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="30"/>
+                                <state key="normal" title="Flashlight">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="PressedFlashlight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hB-iB-OAD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0xL-TI-t2r"/>
+                            <constraint firstItem="gGI-HJ-brX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1Wm-GT-udy"/>
                             <constraint firstItem="cnm-jA-6em" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1iV-9V-a3I"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7oK-ng-Aoj" secondAttribute="bottom" id="HYX-TO-uZS"/>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IMK-8V-aVP"/>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PHg-od-Tlx"/>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dMi-0a-hzf"/>
+                            <constraint firstItem="gGI-HJ-brX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f4h-sf-aJl"/>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ilS-79-RUj"/>
                             <constraint firstItem="7oK-ng-Aoj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="s1J-MZ-hp4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7oK-ng-Aoj" secondAttribute="trailing" id="s2k-gB-jq8"/>
                             <constraint firstItem="cnm-jA-6em" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vQd-S5-GHX"/>
+                            <constraint firstItem="gGI-HJ-brX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vgP-zu-jTs"/>
                             <constraint firstItem="cnm-jA-6em" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xEk-Gz-hOn"/>
                         </constraints>
                     </view>

@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func PressedFlashlight(_ sender: Any) {
+    }
+    
 }
 
