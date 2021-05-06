@@ -4,8 +4,9 @@
 //
 //  Created by Владимир on 04.05.2021.
 //
-///hello
+///hello world
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -23,7 +24,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func PressedFlashlight(_ sender: Any) {
-    }
+        
+        let device = AVCaptureDevice.default(for: AVMediaType.video)
+        if ((device?.hasTorch) != nil) {
+            do {
+                try device?.lockForConfiguration()
+                device?.torchMode = device?.torchMode == AVCaptureDevice.TorchMode.on ? .off : .on
+                device?.unlockForConfiguration()
+            } catch {print(error)}    }
     
 }
-
+}
